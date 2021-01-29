@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Eslint配置文件 | 个人主页</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/images/icon/touxiang.jpg">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="文档笔记">
+    <meta http-quiv="pragma" cotent="no-cache">
+    <meta http-quiv="pragma" cotent="no-cache,must-revalidate">
+    <meta http-quiv="expires" cotent="0">
+    
+    <link rel="preload" href="/assets/css/0.styles.fdde5c9a.css" as="style"><link rel="preload" href="/assets/js/app.31b2c811.js" as="script"><link rel="preload" href="/assets/js/2.fc07318e.js" as="script"><link rel="preload" href="/assets/js/12.01e89833.js" as="script"><link rel="prefetch" href="/assets/js/10.59221204.js"><link rel="prefetch" href="/assets/js/11.140f7234.js"><link rel="prefetch" href="/assets/js/13.1af1354f.js"><link rel="prefetch" href="/assets/js/14.b51e4e05.js"><link rel="prefetch" href="/assets/js/15.3680758b.js"><link rel="prefetch" href="/assets/js/16.116b655a.js"><link rel="prefetch" href="/assets/js/17.c3a66ab6.js"><link rel="prefetch" href="/assets/js/18.c42ff816.js"><link rel="prefetch" href="/assets/js/19.b91d608a.js"><link rel="prefetch" href="/assets/js/20.533cf6d8.js"><link rel="prefetch" href="/assets/js/21.917508f1.js"><link rel="prefetch" href="/assets/js/22.a664ce8a.js"><link rel="prefetch" href="/assets/js/23.eb2edcc1.js"><link rel="prefetch" href="/assets/js/24.67406f04.js"><link rel="prefetch" href="/assets/js/3.809c4785.js"><link rel="prefetch" href="/assets/js/4.c0299c15.js"><link rel="prefetch" href="/assets/js/5.160cab52.js"><link rel="prefetch" href="/assets/js/6.504f3820.js"><link rel="prefetch" href="/assets/js/7.28592cbc.js"><link rel="prefetch" href="/assets/js/8.f124437e.js"><link rel="prefetch" href="/assets/js/9.b831120e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.fdde5c9a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide.html" class="nav-link">
+  快速上手
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目文档" class="dropdown-title"><span class="title">项目文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目文档" class="mobile-dropdown-title"><span class="title">项目文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/admin-project/job-record/" class="nav-link">
+  工作日志
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术文档" class="dropdown-title"><span class="title">技术文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术文档" class="mobile-dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/technology/Git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/zh/technology/Eslint/" class="nav-link router-link-active">
+  Lint
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide.html" class="nav-link">
+  快速上手
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目文档" class="dropdown-title"><span class="title">项目文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目文档" class="mobile-dropdown-title"><span class="title">项目文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/admin-project/job-record/" class="nav-link">
+  工作日志
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术文档" class="dropdown-title"><span class="title">技术文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术文档" class="mobile-dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/technology/Git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/zh/technology/Eslint/" class="nav-link router-link-active">
+  Lint
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Eslint</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh/technology/Eslint/" aria-current="page" class="sidebar-link">生态依赖包介绍</a></li><li><a href="/zh/technology/Eslint/options.html" aria-current="page" class="active sidebar-link">Eslint配置文件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/technology/Eslint/options.html#配置文件解析" class="sidebar-link">配置文件解析</a></li></ul></li><li><a href="/zh/technology/Eslint/lint.html" class="sidebar-link">让优美的代码深入到骨髓里~</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Prettier</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh/technology/Prettier/" class="sidebar-link">什么是Prettier</a></li><li><a href="/zh/technology/Prettier/install.html" class="sidebar-link">安装</a></li><li><a href="/zh/technology/Prettier/options.html" class="sidebar-link">配置文件</a></li><li><a href="/zh/technology/Prettier/options-all.html" class="sidebar-link">配置文件属性说明</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>stylelint</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh/technology/stylelint/" class="sidebar-link">stylelint 插件</a></li><li><a href="/zh/technology/stylelint/install.html" class="sidebar-link">安装依赖</a></li><li><a href="/zh/technology/stylelint/options.html" class="sidebar-link">配置文件</a></li><li><a href="/zh/technology/stylelint/options-all.html" class="sidebar-link">详尽的配置规则</a></li><li><a href="/zh/technology/stylelint/options-zh.html" class="sidebar-link">规则参考列表（中文）</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="eslint配置文件"><a href="#eslint配置文件" class="header-anchor">#</a> Eslint配置文件</h1> <ol><li><p><strong>env:</strong> 预定义那些环境需要用到的全局变量，可用的参数是：<code>es6</code>、<code>broswer</code>、<code>node</code>等。<br> <code>es6</code>会使能所有的<code>ECMAScript6</code>的特性除了模块(这个功能在设置<code>ecmaVersion</code>版本为6的时候会自动设置)<br> <code>browser</code>会添加所有的浏览器变量比如<code>Windows</code><br> <code>node</code>会添加所有的全局变量比如<code>global</code><br>
+更多环境配置参考<a href="https://eslint.org/docs/user-guide/configuring#specifying-environments" target="_blank" rel="noopener noreferrer">Specifying Environments<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><strong>extends:</strong> 指定扩展的配置，配置支持递归扩展，支持规则的覆盖和聚合。</p></li> <li><p><strong>plugins:</strong> 配置那些我们想要Linting规则的插件。</p></li> <li><p><strong>parser:</strong> 默认ESlint使用<a href="https://github.com/eslint/espree" target="_blank" rel="noopener noreferrer">Espree<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>作为解析器，但是一旦我们使用babel的话，我们需要用babel-eslint。</p></li> <li><p><strong>parserOptions:</strong> 当我们将默认的解析器从Espree改为babel-eslint的时候，我们需要指定parseOptions，这个是必须的。</p> <p><strong>ecmaVersion:</strong> 默认值是5，可以设置为3、5、6、7、8、9、10，用来指定使用哪一个ECMAScript版本的语法。也可以设置基于年份的JS标准，比如2015(ECMA 6)</p> <p><strong>sourceType:</strong> 如果你的代码是ECMAScript 模块写的，该字段配置为module，否则为script(默认值)</p> <p><strong>ecmaFeatures：</strong> 该对象指示你想使用的额外的语言特性</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>globalReturn：允许全局范围内的<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">return</span><span class="token template-punctuation string">`</span></span>语句
+impliedStrict：使能全局<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">strict</span><span class="token template-punctuation string">`</span></span>模式
+jsx：使用<span class="token constant">JSX</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></li> <li><p><strong>rules:</strong> 自定义规则，可以覆盖掉extends的配置。</p></li> <li><p><strong>settings</strong> 该字段定义的数据可以在所有的插件中共享。这样每条规则执行的时候都可以访问这里面定义的数据</p></li></ol> <p><strong>更多配置选项参考官方文档<a href="https://eslint.org/docs/user-guide/configuring" target="_blank" rel="noopener noreferrer">Eslint<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></strong></p> <h2 id="配置文件解析"><a href="#配置文件解析" class="header-anchor">#</a> 配置文件解析</h2> <div class="language-js line-numbers-mode"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span>  <span class="token punctuation">{</span>
+  parser<span class="token operator">:</span>  <span class="token string">'babel-eslint'</span><span class="token punctuation">,</span>  <span class="token comment">// 指定ESLint解析器</span>
+  parserOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
+    ecmaVersion<span class="token operator">:</span> <span class="token number">2015</span><span class="token punctuation">,</span> <span class="token comment">// 指定您想要的ECMAScript语法版本 use: 2015 =&gt; (ES6)</span>
+    sourceType<span class="token operator">:</span>  <span class="token string">'module'</span><span class="token punctuation">,</span>  <span class="token comment">// 允许使用入口</span>
+    ecmaFeatures<span class="token operator">:</span> <span class="token punctuation">{</span>
+      jsx<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 使用JSX</span>
+      impliedStrict<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token comment">// 启用全局严格模式</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">extends</span><span class="token operator">:</span>  <span class="token punctuation">[</span>
+    <span class="token string">'airbnb'</span><span class="token punctuation">,</span>  <span class="token comment">// 使用airbnb，它包括react规则(eslint-plugin-react/eslint-plugin-jsx-a11y)</span>
+    <span class="token string">'plugin:promise/recommended'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 'prettier', // 使用prettier，它可以禁用所有与prettier冲突的规则</span>
+    <span class="token comment">// 'prettier/react' // 使用prettier/react来代替pretty react语法</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  settings<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'import/resolver'</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">// 该配置被eslint-import-resolver-webpack使用</span>
+      webpack<span class="token operator">:</span> <span class="token punctuation">{</span>
+        config<span class="token operator">:</span> <span class="token string">'./webpack/webpack-common-config.js'</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  env<span class="token operator">:</span> <span class="token punctuation">{</span>
+    browser<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token comment">// 启用所有浏览器全局变量</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token string">'plugins'</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'react-hooks'</span><span class="token punctuation">,</span> <span class="token string">'promise'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// ['prettier', 'react-hooks']</span>
+  rules<span class="token operator">:</span>  <span class="token punctuation">{</span>
+    <span class="token comment">// 指定ESLint规则的位置。可以用来覆盖从扩展的配置中指定的规则</span>
+    <span class="token comment">// e.g. '@typescript-eslint/explicit-function-return-type': 'off',</span>
+    <span class="token string">&quot;react-hooks/rules-of-hooks&quot;</span><span class="token operator">:</span> <span class="token string">&quot;error&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;semi&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;error&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;never&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;react/jsx-one-expression-per-line&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token comment">/**
+     * @description eslint-plugin-prettier规则
+     */</span>
+    <span class="token comment">// 'prettier/prettier': [</span>
+    <span class="token comment">//   'error', {</span>
+    <span class="token comment">//     'singleQuote': true,</span>
+    <span class="token comment">//     'semi': false</span>
+    <span class="token comment">//   }</span>
+    <span class="token comment">// ]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">1/13/2021, 3:06:02 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh/technology/Eslint/" class="prev router-link-active">
+        生态依赖包介绍
+      </a></span> <span class="next"><a href="/zh/technology/Eslint/lint.html">
+        让优美的代码深入到骨髓里~
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.31b2c811.js" defer></script><script src="/assets/js/2.fc07318e.js" defer></script><script src="/assets/js/12.01e89833.js" defer></script>
+  </body>
+</html>
